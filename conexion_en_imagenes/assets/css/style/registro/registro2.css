@@ -1,0 +1,92 @@
+.titulo-reg {
+	font-size: 2.50em;
+	padding: 0.2em 0;
+	color: #000000;
+	text-align: center;
+}
+
+/* Estilo Formulario */
+ .form-registro {
+	font-size: 2em;
+	padding: 0.75em 0;
+	color: #000000;
+}
+
+.form-registro .form-reg {
+	margin: 0.688em 0;
+}
+
+.form-registro .form2 {
+	display: flex;
+	gap: 1em;
+	justify-content: space-around;	
+}
+
+.form-registro .form-reg input {
+	width: 100%;
+	border: none;
+	border-bottom: double #0074B9;
+	height: 2.400em;
+	color: #000000;
+	font-size: 0.6em;
+	font-weight: 500;
+	outline: none !important;
+	box-sizing: border-box;
+}
+
+.form-registro .form-reg input::placeholder {
+	color: #000000;
+}
+
+.form-registro .form2 input[type="date"] {
+	height: 100%;
+}
+
+.form-registro .form2 .opciones {
+	height: 100%;
+	border: none;
+	outline: none;
+	border-bottom: double #0074B9;
+	color: #000000;
+	font-weight: 500;
+	font-size: 0.6em;
+}
+
+.form-registro .form-reg button {
+	width: 100%;
+	height: 2.400em;
+	border: none;
+	background-color: #0074B9;
+	font-size: 0.625em;
+	color: #ffffff;
+	font-weight: 700;
+	cursor: pointer;
+	outline: invert;
+	transition: .5s;
+}
+
+.form-registro .form-reg button:active {
+	transform: scale(0.97);
+}
+
+.entrar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.entrar {
+	padding: 1rem 0;
+	font-size: 1.125rem;
+}
+
+.entrar a {
+	text-decoration: none;
+	color: #0074B9;
+	cursor: pointer;
+}
+
+.entrar a:hover {
+	text-decoration-line: underline;
+  	text-decoration-style: double
+}

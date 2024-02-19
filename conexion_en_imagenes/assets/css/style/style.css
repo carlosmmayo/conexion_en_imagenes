@@ -1,0 +1,72 @@
+.contenido-principal {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.contenido-principal > .contenido {
+    box-sizing: border-box;
+    border-right: 0.188rem solid #00000004;
+}
+
+.contenido-principal > .contenido > .contenido-header {
+    box-sizing: border-box;
+    height: 10vh;
+    border-bottom: 0.125rem solid #00000004;
+}
+
+.contenido-principal > .contenido > .contenido-header  .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-principal > .contenido > .contenido-header  .titulo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    height: 100%;
+}
+
+.contenido-principal > .contenido > .nav {
+    box-sizing: border-box;
+    height: 80vh;
+}
+
+.contenido-principal > .contenido > .nav .nav-ul {
+    padding-top: 1.50rem;
+}
+
+.contenido-principal > .contenido > .nav .nav-ul .nav-ul-li {
+    padding: 0.625rem 0 0.625rem 1.20rem;
+    font-size: 1.125rem;
+    list-style: none;
+	transition: .4s;
+}
+
+.contenido-principal > .contenido > .nav .nav-ul .nav-ul-li:hover {
+    padding-left: 2.10rem;
+    background-color: #00000057;
+}
+
+.contenido-principal > .contenido > .nav .nav-ul .nav-ul-li a {
+    text-decoration: none;
+}
+
+.contenido-principal > .contenido > .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-principal > .contenido > .footer {
+    box-sizing: border-box;
+    height: 10vh;
+    border-top: 0.125rem solid #00000004;
+}
+
+
+
+.contenido-principal > .main {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}

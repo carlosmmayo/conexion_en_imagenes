@@ -1,0 +1,17 @@
+/* Grid */
+
+/* Grid  contenido-principal */
+.contenido-principal {
+	display: grid;
+	grid-template: 	"contenido main"
+					"contenido main";
+	grid-template-columns: 22rem 1fr;
+}
+
+.contenido-principal > .contenido {
+	grid-area: contenido;
+}
+
+.contenido-principal > .main {
+	grid-area: main;
+}

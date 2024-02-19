@@ -1,0 +1,18 @@
+/* Grid */
+
+/* Grid  contenido */
+
+.contenido {
+	display: grid;
+	grid-template: "login conten-principal "
+					"login conten-principal ";
+	grid-template-columns: 33rem 1fr;
+}
+
+.login {
+	grid-area: login;
+}
+
+.conten-principal {
+	grid-area: conten-principal;
+}

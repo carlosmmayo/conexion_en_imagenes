@@ -1,0 +1,236 @@
+.contenido {
+	width: 100%;
+	height: 100vh;
+	/* background-color: #F5F5F5; */
+}
+
+.contenido > .login {
+	box-sizing: border-box;
+	height: 100vh;
+	background-color: #FFFFFF;
+	padding: 7em 0;
+}
+
+.contenido > .login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenido > .login > .cont-login {
+	padding: 0 4em;
+}
+
+.contenido > .login > .cont-login > .cont-login-tex {
+	text-align: center;
+	color: #000000;
+}
+
+.contenido > .login > .cont-login > .cont-login-tex .titulo {
+	font-size: 4em;
+}
+
+.contenido > .login > .cont-login > .cont-login-tex .titulo-acceso {
+	font-size: 2.50em;
+	padding: 0.75em 0;
+}
+
+/* Estilo Formulario */
+.contenido > .login > .cont-login > .form {
+	font-size: 2em;
+	padding: 0.75em 0;
+	color: #000000;
+}
+
+.contenido > .login > .cont-login > .form .form-cont {
+	margin: 0.688em 0;
+}
+
+.contenido > .login > .cont-login > .form .form-cont input {
+	width: 100%;
+	border: none;
+	border-bottom: double #0074B9;
+	height: 2.400em;
+	color: #000000;
+	font-size: 0.6em;
+	font-weight: 500;
+	outline: none !important;
+	box-sizing: border-box;
+}
+
+.contenido > .login > .cont-login > .form .form-cont input::placeholder {
+	color: #000000;
+}
+
+.contenido > .login > .cont-login > .form .form-cont button {
+	width: 100%;
+	height: 2.400em;
+	border: none;
+	background-color: #0074B9;
+	font-size: 0.625em;
+	color: #ffffff;
+	font-weight: 700;
+	cursor: pointer;
+	outline: invert;
+	transition: .5s;
+}
+
+.contenido > .login > .cont-login > .form .form-cont button:active {
+	transform: scale(0.97);
+}
+
+.contenido > .login > .cont-login > .no-registro p {
+	font-size: 1.125em;
+	text-align: center;
+}
+
+.contenido > .login > .cont-login > .no-registro p span {
+	color: #0074B9;
+	cursor: pointer;
+}
+
+.contenido > .login > .cont-login > .no-registro p span:hover {
+	text-decoration-line: underline;
+  	text-decoration-style: double;  
+}
+
+
+/* Estilo del main "conten-principal" */
+.contenido .conten-principal {
+	height: 100vh;
+	overflow: auto;
+}
+
+.contenido .conten-principal .principal-section .img-section {
+	height: 43rem;
+	width: 100%;
+	box-sizing: border-box;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.568)),url(../../../img/foto1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contenido .conten-principal .principal-section .img-section h1 {
+	position: relative;
+	top: 38rem;
+	color: #FFFFFF;
+	font-size: 2rem;
+	padding: 0 3rem;
+}
+
+.contenido .conten-principal .principal-section .conten-info {
+	margin: 0 6rem;
+}
+
+.contenido .conten-principal .principal-section .conten-info .bienvenido {
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+.contenido .conten-principal .principal-section .conten-info .bienvenido {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenido .conten-principal .principal-section .conten-info .bienvenido h3 {
+	width: 70%;
+	text-align: center;
+	padding: 4rem 0;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica  {
+	box-sizing: border-box;
+	display: flex;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica  {
+	height: 35rem;
+	width: 100%;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica .img-ft1  {
+	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica .img-ft1 > div {
+	box-sizing: border-box;
+	height: 100%;
+	width: 80%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.568)),url(../../../img/foto2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica .img-ft2  {
+	box-sizing: border-box;
+	height: 100%;
+	width: 60%;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica .img-ft2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenido .conten-principal .principal-section .conten-info .magia-fotografica .img-ft2 > div {
+	box-sizing: border-box;
+	height: 70%;
+	width: 100%;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.568)),url(../../../img/foto3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contenido .conten-principal .principal-section .conten-info .unete-celebra {
+	box-sizing: border-box;
+	display: flex;
+}
+
+.contenido .conten-principal .principal-section .conten-info .unete-celebra {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 4rem 0;
+	background-color: #F5F5F5;
+}
+
+.contenido .conten-principal .principal-section .conten-info .unete-celebra .unete {
+	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	padding: 0 2rem;
+}
+
+.contenido .conten-principal .principal-section .conten-info .unete-celebra .unete h3 {
+	padding: 1rem 0;
+	font-size: 1.2rem;
+}
+
+.contenido .conten-principal .principal-section .conten-info .unete-celebra .ha-parte {
+	box-sizing: border-box;
+	height: 100%;
+	width: 50%;
+	padding: 0 2rem;
+}
+
+.contenido .conten-principal .principal-section .conten-info .unete-celebra .ha-parte h3 {
+	padding: 1rem 0;
+	font-size: 1.2rem;
+}
+
+.contenido .conten-principal .principal-section .conten-info .copy  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contenido .conten-principal .principal-section .conten-info .copy  {
+	text-align: center;
+	padding: 3rem 0;
+}
